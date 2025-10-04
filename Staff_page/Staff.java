@@ -3,7 +3,7 @@ package Staff_page;
 import javafx.fxml.FXML;
 import javafx.scene.text.Font;
 import javafx.scene.paint.Color;
-import app.Main; // ✅ now works
+import app.Main; 
 
 public class Staff {
 
@@ -21,3 +21,4 @@ public class Staff {
         Main.setScene("/Login_page/Login.fxml");
     }
 }
+

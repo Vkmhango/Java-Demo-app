@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" style="-fx-background-radius: 30;" xmlns="http://javafx.com/javafx/24.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Customization_page.Customization">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-radius: 0; -fx-background-color: white;">
+         <children>
+            <Label layoutX="32.0" layoutY="20.0" text="Personal Information">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Label>
+            <TextField layoutX="32.0" layoutY="60.0" style="-fx-background-color: transparent;" text="First Name" />
+            <TextField layoutX="32.0" layoutY="85.0" promptText="Enter First Name" />
+            <TextField layoutX="359.0" layoutY="60.0" style="-fx-background-color: transparent;" text="Last Name" />
+            <TextField layoutX="359.0" layoutY="85.0" promptText="Enter Last Name" />
+            <TextField layoutX="32.0" layoutY="111.0" style="-fx-background-color: transparent;" text="Email address" />
+            <TextField layoutX="32.0" layoutY="137.0" promptText="Enter Email" />
+            <TextField layoutX="359.0" layoutY="111.0" style="-fx-background-color: transparent;" text="Phone Number" />
+            <TextField layoutX="359.0" layoutY="137.0" promptText="Enter Phone Number" />
+         </children></AnchorPane>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" style="-fx-background-radius: 0; -fx-background-color: white;">
+         <children>
+            <Label layoutX="38.0" layoutY="24.0" text="Address">
+               <font>
+                  <Font name="Segoe UI" size="14.0" />
+               </font>
+            </Label>
+            <TextField layoutX="31.0" layoutY="59.0" style="-fx-background-color: transparent;" text="Country" />
+            <TextField layoutX="31.0" layoutY="85.0" promptText="Enter Country Name" />
+            <TextField layoutX="364.0" layoutY="59.0" style="-fx-background-color: transparent;" text="City/State" />
+            <TextField layoutX="364.0" layoutY="85.0" promptText="Enter City Name" />
+            <TextField layoutX="31.0" layoutY="147.0" promptText="Enter Street Name" />
+            <TextField layoutX="31.0" layoutY="121.0" style="-fx-background-color: transparent;" text="Street address" />
+            <TextField layoutX="364.0" layoutY="147.0" promptText="Enter Postal Code" />
+            <TextField layoutX="364.0" layoutY="121.0" style="-fx-background-color: transparent;" text="Postal Code" />
+         </children></AnchorPane>
+  </items>
+</SplitPane>
